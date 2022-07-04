@@ -1,0 +1,44 @@
+
+.cardBox {
+  display: flex;
+  margin-top: -32px;
+  overflow-x: scroll;
+
+}
+
+.headContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.headContainer p{
+  color: gray;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.buttonContainer{
+    padding-top: 15px;
+}
+.buttonContainer button {
+
+  background: transparent;
+  border: none;
+}
+
+.cardBox::-webkit-scrollbar{
+  display: none;
+}
+
+/* @media only screen and (max-width:800px){
+
+ .cardBox{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  overflow-y: ;
+ }
+
+} */
